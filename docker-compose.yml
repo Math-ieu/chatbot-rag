@@ -15,6 +15,7 @@ services:
       - NODE_ENV=production
       - WEBHOOK_URL=http://13.39.164.103:5678/
       - GENERIC_TIMEZONE=Europe/Paris
+      - N8N_SECURE_COOKIE=false
       - N8N_ENCRYPTION_KEY=91307931cd7ab78784da645b00b90472
     volumes:
       - ./data/n8n:/home/node/.n8n
